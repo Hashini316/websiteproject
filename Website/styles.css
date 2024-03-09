@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: boader-box;
+    font-family: "poppins";
+
+}
+body {
+    margin: 0 auto;
+    }
+    /*navigation*/
+nav{
+    background-color: #233e50;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 2rem;
+    justify-content: space-between ;
+    align-items: center ;
+}
+
+ ul{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    list-style: none;
+    gap: 2rem;
+    font-size: 17px;
+    color: #ffffff;
+
+ }
+.button {
+    border: none;
+    font-size: 15px;
+    padding: 1px 10px;
+    border-radius: 20px;
+    background-color: #65e4a3 ;
+
+}
+a {
+    text-decoration: none;
+}
+
+/* About Us */
+ .About{
+    background-color: #0a2640;
+    color: #fff;
+    height: 600px;
+    padding: 4rem 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1.5rem;
+}
+
+h1{
+    font-size: 3rem;
+    }
+p{
+    opacity: 0.5;
+}
+
+/* hospital-images */
+    .grid-items{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 300px 300px;
+        gap: 1rem;
+        position: absolute;
+        top: 1200px;
+        width: 50%;
+        justify-content: center;
+}
+
+.grid-items > :nth-child(2){
+    grid-row: span 2;
+}
+
+.hospital-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
