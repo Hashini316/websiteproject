@@ -1,5 +1,5 @@
 @import url("c:\Users\User\AppData\Local\Temp\Rar$DRa3792.43617\Poppins-Bold.ttf");
-{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -111,7 +111,7 @@
    text-align: center;
    padding: 4rem 5rem;
    gap: 2rem;
-   background-color: #403b0a :
+   background-color: #403b0a;
    gap: #fff;
 
 }
