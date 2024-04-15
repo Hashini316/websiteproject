@@ -1,179 +1,500 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Document</title>
-   <link rel="stylesheet" href="index.css">
-   <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200&family=Courgette&family=Dancing+Script:wght@700&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=Open+Sans&family=PT+Sans:ital,wght@1,700&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto&family=Roboto+Condensed:wght@700&family=Roboto+Slab&display=swap" rel="stylesheet">
-   <script src="https://kit.fontawesome.com/f30fac2c61.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DH Hospital</title>
+  
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-   <div class="container">
-       <nav>
-           <div class="logo">
-            <img src="logo.png" id="logo" alt="">
-           
-           </div>
-           <i id="bar" class="fa-solid fa-bars"></i>    
 
-           <ul>
-               <li><a href="">Home</a></li>
-               <li><a href="#doctors">Doctor's</a></li>
-               <li><a href="#speciality">Speciality's</a></li>
-               <li><a href="#patient">Patient Review's</a></li>
-               <li><a href="#contact">Contact Us</a></li>
+  
+   <!--navigation--> 
 
-           </ul>
+   <nav>
+     <img src="./assests/images-removebg-preview.png" alt="">
+    
+      <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="service.html">Services</a></li>
+          <li><a href="images.html">Images</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          
+          
+          <button onclick="redirectToLogin()">Login</button>
 
-       </nav>
+<script>
+    function redirectToLogin() {
+        // Redirect to the login page
+        window.location.href = "login.html";
+    }
+        </script>
 
-       <div class="main">
-          <div class="mainText">
-           <h1>The DH LifeCare Hospital that <br>Care for you</h1>
-           <h3>Best Team's</h3>
-           <!-- <p> Lorem ipsum dolor sit amet consectetur adipisicing elit</p> -->
-           <button>Show More</button>
-          </div>
-          <img src="mains.png" alt="">
-       </div>
+    
+         </ul>
+         
+      </ul>
+  
+   </nav>
+
+  <!--About-->
+    <section class="about">
+      <h3>About us</h3>
+       <h1>Welcome to DH Hospital
+         Dedicated to you, <br>
+         
+         Compassion, Innovation & Excellence</h1>
+         <p>Since our foundation in 1945, we have built a reputation for regional leadership in medical excellence and innovation, based on a simple philosophy: that improving the health of our community should be driven by passion as well as compassion.
+
+            We offer a range of spacious modern rooms and are equipped with state of critical care units. At DH the best consultants, specialists and employees are dedicated to providing exceptional clinical outcomes and the utmost customer satisfaction.</p>
+    
+          
+          </section>
+
+
+   <!-- Container for the image gallery -->
+   <div class="scroll-container">
+      <img src="./assests/download (1).jpeg" alt="">
+      <img src="./assests/download (2).jpeg" alt="">
+      <img src="./assests/download.jpeg" alt="">
+      <img src="./assests/th (1).jpeg" alt="">
+      <img src="./assests/th (2).jpeg" alt="">
+      <img src="./assests/th (3).jpeg" alt="">
+      
+    </div>
+   <!--Our services -->
+    <section class="Our Services">
+      <h2>Our Services</h2>
+      <h1>International Patient Care</h1>
+      <p>DH Hospital has a dedicated team to handle the care of international patients within the hospital. This includes coordinating not only the patient’s stay at the hospital and insurance coverage but also airport drop off and pickups as well as hotel accommodation. DH being a JCI-accredited hospital meets international standards in healthcare. With state-of-the-art facilities and a highly skilled team patients are guaranteed a smooth recovery process.</p>
+      <p>hospital, an institution that is built, staffed, and equipped for the diagnosis of disease; for the tre…<br>
+         To better serve the wide-ranging needs of the community, the modern hospital has often developed outpatient facilities, as well as emergency, psychiatric, and rehabilitation services. In addition, “bedless hospitals” provide strictly ambulatory (outpatient) care and day surgery. Patie…
+         Hospitals have long existed in most countries. Developing countries, which contain a large propo…<br>
+         In developed countries the hospital as an institution is complex, and it is made more so as modern technology increases the range of diagnostic capabilities and expands the possibilities for treatment</p>
+      <div class="buttons">
+      <button>Learn More</button>
+      <button class="button new">Our Services</button>
+
+      
+
+
+   </section>
+   <!--Home Page-->
+       <section class="home-page">
+         <h2>HOME PAGE</h2>
+         <h1>DH HOSPITAL Pvt ltd,Colombo 07</h1>
+         <p>Hospital, an institution that is built, staffed, and equipped for the diagnosis of disease; for the treatment, both medical and surgical, of the sick and the injured; and for their housing during this process. The modern hospital also often serves as a centre for investigation and for teaching.</p>
+         <img src="./assests/campus-Riverside-Ottawa-The-Hospital-Ont.webp" alt="">
+         <p>To better serve the wide-ranging needs of the community, the modern hospital has often developed outpatient facilities, as well as emergency, psychiatric, and rehabilitation services. In addition, “bedless hospitals” provide strictly ambulatory (outpatient) care and day surgery. Patients arrive at the facility for short appointments. They may also stay for treatment in surgical or medical units for part of a day or for a full day, after which they are discharged for follow-up by a primary care health provider.</p>
+         <p>Hospitals have long existed in most countries. Developing countries, which contain a large proportion of the world’s population, generally do not have enough hospitals, equipment, and trained staff to handle the volume of persons who need care. Thus, people in these countries do not always receive the benefits of modern medicine, public health measures, or hospital care, and they generally have lower life expectancies.</p>
+         <p>In developed countries the hospital as an institution is complex, and it is made more so as modern technology increases the range of diagnostic capabilities and expands the possibilities for treatment. As a result of the greater range of services and the more-involved treatments and surgeries available, a more highly trained staff is required. A combination of medical research, engineering, and biotechnology has produced a vast array of new treatments and instrumentation, much of which requires specialized training and facilities for its use. Hospitals thus have become more expensive to operate, and health service managers are increasingly concerned with questions of quality, cost, effectiveness, and efficiency.</p>
+         <img src="./assests/f52b44f8200b44fba7acc707e7bd60e1.jpeg" alt="">
+         <h2>History of hospitals</h2>
+         <p>As early as 4000 BCE, religions identified certain of their deities with healing. The temples of Saturn, and later of Asclepius in Asia Minor, were recognized as healing centres. Brahmanic hospitals were established in Sri Lanka as early as 431 BCE, and King Ashoka established a chain of hospitals in Hindustan about 230 BCE. Around 100 BCE the Romans established hospitals (valetudinaria) for the treatment of their sick and injured soldiers; their care was important because it was upon the integrity of the legions that the power of ancient Rome was based.</p>
+         <img src="./assests/Ruins-sanctuary-Asclepius-Greece-Cos.webp" alt="">
+         <h2>The modern hospital</h2>
+         <p>Hospitals may be compared and classified in various ways: by ownership and control, by type of service rendered, by length of stay, by size, or by facilities and administration provided. Examples include the general hospital, the specialized hospital, the short-stay hospital, and the long-term-care facility.</p>
+         <h2>Bed number and length of stay</h2>
+         <p>Hospitals may be compared by the number of beds they contain. Modern hospitals tend to rarely exceed 800 beds, and though some integrated health facilities may have more beds, they often comprise multiple geographic locations, each with several hundred beds. In the early 21st century, it was thought that a facility of 800 beds was the largest unit that could be governed satisfactorily from a single administrative unit while maintaining a corporate unity.</p>
+         <h2>Ownership and control</h2>
+         <p>The issues of hospital ownership and control underwent significant analysis and change in the late 20th and early 21st centuries. Such transformation was prevalent in developed countries, particularly those in which fiscal sustainability was problematic.</p>
+         <p>In many countries nearly all hospitals are owned and operated by the government. In Great Britain, except for a small number run by religious orders or serving special groups, most hospitals are within the National Health Service. The local hospital management committee answers directly to the regional hospital board and ultimately to the Department of Health and Social Security. In the United States most hospitals are neither owned nor operated by governmental agencies. In some instances hospitals that are part of a regional health authority are governed by the board of the regional authority, and hence these hospitals no longer have their own boards.</p>
+         <img src="./assests/Norwich-University-Hospital-Norfolk-England-National-Health.webp" alt="">
+         <h2>Financing</h2>
+         <p>Because hospitals may serve specific populations and because they may be not-for-profit or for-profit, there exist a variety of mechanisms for hospital financing. Almost universally, hospital-construction costs are met at least in some part by governmental contributions. Operating costs, however, are taken care of in different ways. For example, funds may come from private endowments or gifts, general funds of some unit of government, funds collected by insurance carriers from subscribers, or some combination thereof. In some countries, operating costs may be supplemented in part by public or private sources that pay charges on uninsured or inadequately insured patients or by out-of-pocket payment by these individuals.</p> 
+         <p>In many countries, and in Europe in particular, the financial support of services in hospitals tends to be collectivized, with funding provided through public revenues, social insurance, or a combination of the two. Thus, the costs of hospital operation are covered infrequently by payments made directly by patients. Details vary somewhat from country to country. In Sweden, for example, most hospital operating costs are financed by public revenues collected by regional governments. Many other European countries follow a similar model, with operating costs for hospitals paid out of national insurance funds; such is the case in the Netherlands, Finland, Norway, and elsewhere. In contrast, other countries, such as the United States, rely heavily on private insurance funds.</p>
+         <p>Private health insurance corporations or agencies exist in many countries. These entities may offer different or more services relative to national health insurance, although generally at additional cost as well. Private insurance funds offer an alternative mechanism of hospital financing.</p>
+         <h2>The general hospital</h2>
+         <p>General hospitals may be academic health facilities or community-based entities. They are general in the sense that they admit all types of medical and surgical cases, and they concentrate on patients with acute illnesses needing relatively short-term care. Community general hospitals vary in their bed numbers. Each general hospital, however, has an organized medical staff, a professional staff of other health providers (such as nurses, technicians, dietitians, and physiotherapists), and basic diagnostic equipment. In addition to the essential services relating to patient care, and depending on size and location, a community general hospital may also have a pharmacy, a laboratory, sophisticated diagnostic services (such as radiology and angiography), physical therapy departments, an obstetrical unit (a nursery and a delivery room), operating rooms, recovery rooms, an outpatient department, and an emergency department. Smaller hospitals may diagnose and stabilize patients prior to transfer to facilities with specialty services.</p>
+        <img src="./assests/Patient-dialysis-treatment.webp" alt="">
+        <p>In larger hospitals there may be additional facilities: dental services, a nursery for premature infants, an organ bank for use in transplantation, a department of renal dialysis (removal of wastes from the blood by passing it through semipermeable membranes, as in the artificial kidney), equipment for inhalation therapy, an intensive care unit, a volunteer-services department, and, possibly, a home-care program or access to home-care placement services.</p>
+        <p>The complexity of the general hospital is in large part a reflection of advances in diagnostic and treatment technologies. Such advances range from the 20th-century introduction of antibiotics and laboratory procedures to the continued emergence of new surgical techniques, new materials and equipment for complex therapies (e.g., nuclear medicine and radiation therapy), and new approaches to and equipment for physical therapy and rehabilitation.</p>
+        <p>The legally constituted governing body of the hospital, with full responsibility for the conduct and efficient management of the hospital, is usually a hospital board. The board establishes policy and, on the advice of a medical advisory board, appoints a medical staff and an administrator. It exercises control over expenditures and has the responsibility for maintaining professional standards.</p>
+        <img src="./assests/pharmacist-medication-list-pharmacy-counter.webp" alt="">
+        <h2>Specialized health and medical care facilities</h2>
+        <p>Hospitals that specialize in one type of illness or one type of patient can generally be found in the developed world. In large university centres where postgraduate teaching is carried out on a large scale, such specialized health services often are a department of the general hospital or a satellite operation of the hospital. Changing conditions or modes of treatment have lessened the need or reduced the number of some types of specialized institutions; this may be seen in the cases of tuberculosis, leprosy, and mental hospitals. On the other hand, specialized surgical centres and cancer centres have increased in number.</p>
+        <h2>Tuberculosis and leprosy hospitals</h2>
+        <p>Between 1880 and 1940, tuberculosis hospitals provided rest, relaxation, special diets, and fresh air, and even if the tuberculosis was in an early stage, a stay of more than two years was thought necessary to effect a healing of the disease; a permanent cure was not considered entirely feasible. Today the use of antibiotics, along with advances in chest surgery and routine X-ray programs, has meant that the treatment of tuberculosis need not be carried out in a specialized facility.</p>
+        <p>Leprosy has been known for centuries to be contagious. Lazar houses (hospitals for individuals with infectious disease) were established throughout Europe in the Middle Ages to isolate those with leprosy, at that time a common disease, from the community. In the 14th century there may have been some 7,000 leper houses in France alone, and some of the earliest hospitals in England were established for lepers.</p>
+        <img src="./assests/doctor-chest-X-rays-patients-tuberculosis.webp" alt="">
+        <h2>Mental health facilities</h2>
+        <p>Psychiatric patients traditionally have been cared for in long-stay mental health facilities, formerly called asylums or mental hospitals. Today the majority of large general hospitals have a psychiatric unit, and many individuals are able to maintain lives as regular members of the community. There are still facilities that specialize in the treatment of mental illness.</p>
+        <p>The hospital stay of many persons with chronic mental illness has been shortened by modern medication and better understanding on the part of the public. Patients are encouraged to participate in facility-based activities and programs. They may be encouraged to return to the community, beginning with trial visits at home, or they may be placed in assisted-living or group homes. Every effort is now made, through the use of appropriate medication and support services, to have the patient integrated into the community. Even those individuals who require custodial care are no longer isolated from contact with their relatives, friends, and the community at large.</p>
+        <p>In addition, the strong correlation between mental illness and addiction has been noted and has given rise to numerous programs incorporating the simultaneous treatment of both conditions. Such programs are prevalent in developed countries in particular. In some cases special hospitals addressing both mental illness and addiction have been established—for instance, the Centre for Addiction and Mental Health in Toronto.</p>
+        <h2>Long-term-care facilities</h2>
+        <p>Historically, long-term-care facilities were homes for the elderly, the infirm, and those with chronic irreversible and disabling disorders, especially if the patients were indigent. Medical and nursing care was minimal. Today, however, long-term-care facilities have a more active role in health care. Some facilities are transitional from an acute hospital setting to the community. Others have residents who have a need for professional health care but do not need the intensive care found in an acute-care facility. As a result, long-term-care facilities often are staffed with health professionals and are equipped to care for patients with extensive needs for daily living or to help patients prepare to live at home or with a member of the family. Long-term-care facilities represent a significant extension of the hospital health care system, helping to conserve expensive facilities for the acutely ill and improving the prospects of the chronically disabled.</p>
+        <h2>Private hospitals</h2>
+        <p>Many countries have private hospitals that specialize in the treatment of specific diseases. For example, private facilities may be designed specifically for cataract or joint surgery. In Britain small private hospitals are often called nursing homes, many of which provide little more than accommodation and simple nursing, the patient being under the care of a general practitioner or of a visiting consultant physician. Medical practice in the towns of developing countries is characterized by a proliferation of many small private hospitals, usually owned by doctors, that have developed to meet the widespread need for hospital care not otherwise available.</p>
+        <p>Another method of providing health care in a hospital for those able to pay for it, in both developed and developing countries, is the provision of a limited number of beds for private patients within a large general hospital otherwise financed to some degree by public funds. In the United Kingdom and, for example, in West Africa, these beds usually form part of the ward unit, the patient being required to pay for certain amenities such as a measure of privacy, unrestricted visiting, attractively served food, and a more liberal routine. Alternatively, many large general hospitals are able to offer much more costly accommodations in so-called private blocks—that is, in a part of the hospital specially designed and equipped for private patients. Patients in a private block pay a large portion of the total cost of their medical care, including that of surgery.</p>
+        <p>Wholly independent private hospitals sometimes are run by a company or business consortium. Many of these privately funded hospitals are able to provide most or all of the services of a general hospital, including constant medical care and nursing services. Such facilities, however, are costly.</p>
+        <h2>The hospice</h2>
+        <p>Historically a hospice was a guesthouse intended for pilgrims and was often closely connected with a monastery and supervised by monks. From the beginning it had a strong religious connection and exemplified the Christian insistence on compassion and care for the aged, the infirm, the needy, and the ill. In modern Britain the hospice movement developed gradually from its beginning in 1905, when the Sisters of Charity founded the St. James Hospice in London. St. Christopher’s Hospice, also in London, founded in 1967, soon became known for its peaceful environment and expert medical and nursing care. In 1974 the first hospice in the United States, the New Haven Hospice (now Connecticut Hospice), was established in New Haven, Connecticut. The hospice movement later spread to many countries worldwide.</p>
+         <h2>Mission hospitals</h2>
+         <p>The spread of Western medicine (or conventional medicine) and the founding of hospitals in developing countries can be attributed in large part to the influence of the medical missionary. The establishment of mission hospitals gained momentum gradually in the second half of the 19th century. By the second half of the 20th century, however, this steady growth had already dwindled, since all but a few of the hospitals and dispensaries founded during that hundred years had been absorbed into the native health care system. The Christian missionaries had a great influence on the creation of centres of Western medicine in many developing countries and in promulgating the concept of a hospital in which health care would be centralized and organized for the benefit of the ill and injured, many of whom would not otherwise have survived. The medical missionaries also promoted the idea and the ideals of nursing as a profession for native men and women.</p> 
+         <p>Apart from its religious associations, a mission hospital functions as a general hospital in the sense that it admits all who need hospital care. A number of mission hospitals, however, have been devoted to specific diseases—for example, leprosy and diseases of the eyes. Perhaps the most important contribution made by mission hospitals is in the enormous numbers of persons, particularly women and children, who have been treated as outpatients.</p>
+         <h2>Extended health care</h2>
+         <p>With the advance in medical science and the ever-increasing cost of hospital operations, the progressive-care concept is more attractive, both for outpatient and inpatient care. Progressive care can be divided into five categories: (1) intensive care, (2) intermediate care, (3) self-care, (4) long-term care, and (5) organized home care.</p>
+         <img src="./assests/monitor-heart-function-patients-information-intensive-care.webp" alt="">
+         <p>Self-care facilities are organized into separate units in which ambulatory patients who require only diagnostic or convalescent care are given accommodations similar to those of a hotel. The patients are free to wear street clothes and to go to the hospital cafeteria. Such a ward or wing of a general hospital requires much less costly equipment than the intensive- or intermediate-care units and can be staffed with far fewer nurses and aides.</p>
+         <p>Home-care programs are for patients who need some health services but not all of the treatment facilities of a hospital. The patients are provided with a range of individualized medical, nursing, social, and rehabilitative services in their own homes, coordinated through one central agency. Patients can be considered ready for home care when: (1) diagnosis and a plan for treatment have been established; (2) inpatient hospital facilities are no longer required for proper care; (3) the nursing service has found that the physical environment of the home is such that the patient receives adequate care; (4) the patient is too ill to visit an outpatient clinic but does not need hospital care; (5) the family environment would have a therapeutic effect, and family members or others can be taught to provide the necessary care; and (6) the family and the patient prefer that care be provided at home. Home care conserves expensive acute-care beds, and most patients on home care do as well as or better than expected.</p>
+         <h2>Regional planning</h2>
+         <p>There are several useful historical and modern examples of regional planning, in which hospital networks were integrated into coordinated health services. For example, during the period of the Soviet Union’s existence in the 20th century, the government was charged with the responsibility of providing health care to all citizens. In Sweden modern coordinated health services centre primarily on hospital services, which are the responsibility of the goverment.</p>
+         <p>In the early 2st century, regional planning of hospital services in Sweden was highly organized. The country was divided into health service regions and had three different levels of health care: primary (general practitioner), secondary (small hospitals that offered most medical specialities), and tertiary (university hospitals, one each for the six main health service regions). Several of the country’s hospital facilities had about 1,000 beds, as well as specialized and outpatient facilities. Small communities had health centres or ambulatory service centres that were not necessarily administered as part of the hospital system.</p>
+         <P>During its existence the Soviet Union took a somewhat different approach. In its thinly populated rural areas, general hospitals, called uchastok hospitals, served populations as small as 2,000 to 15,000 persons. The next-larger hospitals, the district hospitals, had 250–500 beds and usually had divisions for surgical, medical, obstetric, and pediatric services and provided care for infectious diseases. Patients who could not be treated adequately in the district hospitals were referred to the next-higher level, the regional hospital, which served a population of 1,000,000–5,000,000 people and contained up to 1,250 beds. The republic hospital, often associated with medical education and with one or more research institutes, occupied the highest level in the Soviet system. Following the dissolution of the Soviet Union, each soviet socialist republic adopted its own approach to administering and financing hospital services and health care.</P>
+         <p>Regional planning in North America historically was less advanced relative to the government-controlled systems developed elsewhere in the world. One regional pattern that was implemented in the United States was a satellite system, which centred on a metropolis and applied the principle of progressive patient care. The system focused on the efficient provision of comprehensive health care to the residents of the region. Less-serious cases were handled in the outer, more accessible health facilities of the system; the more serious cases were referred to the inner hospitals of the ring or to the research and teaching hospital at the core.</p>
+         <p>The term metropolitan planning council is often used to denote an advisory planning group that coordinates services between member hospitals in a metropolitan area and decides where specialized services are to be delivered and what services or number of beds are to be added. However, in the United States most hospitals are not government-operated, and it is often difficult to achieve close cooperation between voluntary groups.</p>
+         <p>In Canada through the late 1990s and early 2000s, most provinces shifted to regional health authorities, which plan, allocate resources, and apply government health policies. However, several jurisdictions favoured more centralized models, with one or a small number of authorities directing the delivery of all services.</p>
+         <a href="https://in.pinterest.com/pin/home-page-for-hospital-website--436919601354717188/">Search on Google</a>
+         <div class="data">
+            <div class="data-child"></div>
+            <h2 class="green">1200M</h2>
+            <p>Subscribers</p>
+            <h2 class="green">1M</h2>
+            <p>Contacts</p>
+            
+         </div>
+      </section>
+   <!--Our team images-->
+
+   <div id="speciality">
+    <div class="head">
+        <h1>Our Speciality</h1>
+    </div>
+    <div class="surgery">
+        <div class="surgeryCard">
+            <img src="s1.png" alt="">
+            <p>Succesfully Knee Surgery</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
+        <div class="surgeryCard">
+            <img src="s2.png" alt="">
+            <p>Succesfully Knee Surgery</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+
+        </div>
+        <div class="surgeryCard">
+            <img src="s3.png" alt="">
+            <p>Succesfully Knee Surgery</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+
+        </div>
+    </div>
+</div>
+      <h2 class="Gallery">Images</h2>
+      <ul>
+         <li><a href="hospitalroomwindow.html"></a>Hospital Room Window</li>
+         <li><a href="hospitalrlooring.html"></a>Hospital Flooring</li>
+         <li><a href="hospitalinside.html"></a>Hospital Inside</li>
+         <li><a href="hospitaltool.html"></a>Hospital Tool</li>
+         <li><a href="hospitalstaffUniform.html"></a>Hospital Staff Uniform</li>
+         <li><a href="hospitalstaffmeeting.html"></a>Hospital Staff Meeting</li>
+         <li><a href="hospitalmursestaff.html"></a>Hospital Nurse Staff</li>
+         <li><a href="employeehealth.html"></a>Employee Health</li>
+         <li><a href="nursemedicalstaff.html"></a>Nurse Medical Staff</li>
+         <li><a href="hospitalwork.html"></a>Hospital Work</li>
+         <li><a href="hospitalcaricature.html"></a>Hospital Caricature</li>
+         <li><a href="hospitalsign.html"></a>Hospital Sign</li>
+         <li><a href="Hospitalkids.html"></a>Hospital Kids</li>
+         <li><a href="hospitalpatient.html"></a>Hospital patient</li>
+         <li><a href="hospitalpeople.html"></a>Hospital People</li>
+         </ul>
+
+  
+
+    <div class="gallery">
+        
+    </div>
+
+         <!-- Container for the image gallery -->
+         <p>Hospital Room Window</p>
+        <div class="Hospital Room Window">
+              <img src="Images/OIP (1).jpeg" alt="Hospital Image 1">
+              <img src="Images/OIP (4).jpeg" alt="Hospital Image 2">
+              <img src="Images/download (4).jpeg" alt="Hospital Image 3">
+              <img src="photos/download (1).jpeg" alt="Hospital Image 4">
+              <img src="photos/download (2).jpeg" alt="Hospital Image 5">
+              <img src="photos/download (3).jpeg" alt="Hospital Image 6">
+              <img src="photos/download (4).jpeg" alt="Hospital Image 7">
+              <img src="photos/download (5).jpeg" alt="Hospital Image 8">
+              <img src="photos/download (6).jpeg" alt="Hospital Image 9">
+              <img src="photos/download.jpeg" alt="Hospital Image 10">
+              <img src="photos/images.jpeg" alt="Hospital Image 11">
+        </div>
+        <p>Hospital Flooring</p>
+        <div class="Hospital Flooring">
+              <img src="photo1/download (1).jpeg" alt="Hospital Image 1">
+              <img src="photo1/download (2).jpeg" alt="Hospital Image 2">
+              <img src="photo1/download (3).jpeg" alt="Hospital Image 3">
+              <img src="photo1/download (4).jpeg" alt="Hospital Image 4">
+              <img src="photo1/download (5).jpeg" alt="Hospital Image 5">
+              <img src="photo1/download (6).jpeg" alt="Hospital Image 6">
+              <img src="photo1/download (7).jpeg" alt="Hospital Image 7">
+              <img src="photo1/download (8).jpeg" alt="Hospital Image 8">
+              <img src="photo1/download (9).jpeg" alt="Hospital Image 9">
+              <img src="photo1/download.jpeg" alt="Hospital Image 10">
+              <img src="photo1/images.jpeg" alt="Hospital Image 11">
+        </div>
+        <p>Hospital Inside</p>
+        <div class="Hospital Inside">
+              <img src="photo2/download (1).jpeg" alt="Hospital Image 1">
+              <img src="photo2/download (10).jpeg" alt="Hospital Image 2">
+              <img src="photo2/download (2).jpeg" alt="Hospital Image 3">
+              <img src="photo2/download (3).jpeg alt="Hospital Image 4">
+              <img src="photo2/download (4).jpeg" alt="Hospital Image 5">
+              <img src="photo2/download (5).jpeg" alt="Hospital Image 6">
+              <img src="photo2/download (6).jpeg" alt="Hospital Image 7">
+              <img src="photo2/download.jpeg" alt="Hospital Image 8">
+              <img src="photo2/images (1).jpeg" alt="Hospital Image 9">
+              <img src="photo2/images (2).jpeg" alt="Hospital Image 10">
+              <img src="photo2/images.jpeg" alt="Hospital Image 11">
+        </div>
+
+        <p>Hospital Tools</p>
+        <div class="Hospital Tools">
+              <img src="photo3/download (1).jpeg" alt="Hospital Image 1">
+              <img src="photo3/download (2).jpeg" alt="Hospital Image 2">
+              <img src="photo3/download (7).jpeg" alt="Hospital Image 3">
+              <img src="photo3/download.jpeg" alt="Hospital Image 4">
+              <img src="photo3/download.png" alt="Hospital Image 5">
+              <img src="photo3/images (1).jpeg" alt="Hospital Image 6">
+              <img src="photo3/images (3).jpeg" alt="Hospital Image 7">
+              <img src="photo3/images (2).jpeg" alt="Hospital Image 8">
+              <img src="photo3/images (4).jpeg" alt="Hospital Image 9">
+              <img src="photo3/images (5).jpeg" alt="Hospital Image 10">
+              <img src="photo3/images.jpeg" alt="Hospital Image 11">
+        </div>
+
+        <p>Hospital Staff Uniform</p>
+        <div class="Hospital Staff Uniform">
+              <img src="photo4/download (1).jpeg" alt="Hospital Image 1">
+              <img src="photo4/download (2).jpeg" alt="Hospital Image 2">
+              <img src="photo4/download (3).jpeg" alt="Hospital Image 3">
+              <img src="photo4/download (4).jpeg" alt="Hospital Image 4">
+              <img src="photo4/download (5).jpeg" alt="Hospital Image 5">
+              <img src="photo4/download (6).jpeg" alt="Hospital Image 6">
+              <img src="photo4/download (7).jpeg" alt="Hospital Image 7">
+              <img src="photo4/download.jpeg" alt="Hospital Image 8">
+              <img src="photo4/OIP.jpeg" alt="Hospital Image 9">
+              <img src="photo4/th (1).jpeg" alt="Hospital Image 10">
+              <img src="photo4/th (2).jpeg" alt="Hospital Image 11">
+              <img src="photo4/th.jpeg" alt="Hospital Image 12">
+              <img src="photo4/download (8).jpeg" alt="Hospital Image 13">
+        </div>
 
         
-       <div id="doctors">
-           <div class="head">
-               <h1>Our Doctor's</h1>
-           </div>
-           <div class="doctors">
-               <div class="card">
-                   <img src="dt1.jpg" alt="">
-                   <p>Dr Alexa</p>
-                   <p>Surgeon</p>
+        <p>Employee Health</p>
+        <div class="Employee Health">
+              <img src="photo6/download.jpeg" alt="Hospital Image 1">
+              <img src="photo6/th (1).jpeg" alt="Hospital Image 2">
+              <img src="photo6/th (10).jpeg" alt="Hospital Image 3">
+              <img src="photo6/th (2).jpeg" alt="Hospital Image 4">
+              <img src="photo6/th (3).jpeg" alt="Hospital Image 5">
+              <img src="photo6/th (4).jpeg" alt="Hospital Image 6">
+              <img src="photo6/th (5).jpeg" alt="Hospital Image 7">
+              <img src="photo6/th (6).jpeg" alt="Hospital Image 8">
+              <img src="photo6/th (7).jpeg" alt="Hospital Image 9">
+              <img src="photo6/th (8).jpeg" alt="Hospital Image 10">
+              <img src="photo6/th (9).jpeg" alt="Hospital Image 11">
+              <img src="photo6/th.jpeg" alt="Hospital Image 12">
+            
+        </div>
+        <p>Hospital Staff Meeting</p>
+        <div class="gallery">
+            <div class="image">
+              <img src="photo5/th (1).jpeg" alt="Image 1">
+            </div>
+            <div class="image">
+              <img src="photo5/th (10).jpeg" alt="Image 2">
+            </div>
+            <div class="image">
+                  <img src="photo5/th (11).jpeg" alt="Image 3">
+                </div>
+                <div class="image">
+                  <img src="photo5/th (12).jpeg" alt="Image 4">
+                </div>
+                <div class="image">
+                  <img src="photo5/th (13).jpeg" alt="Image 5">
+                </div>
+                <div class="image">
+                  <img src="photo5/th (2).jpeg" alt="Image 6">
+                </div>
+                <div class="image">
+                  <img src="photo5/th (3).jpeg" alt="Image 7">
+                </div>
+                <div class="image">
+                  <img src="photo5/th (4).jpeg" alt="Image 8">
+                </div>
+                <div class="image">
+                  <img src="photo5/th (5).jpeg" alt="Image 9">
+                </div>
+                <div class="image">
+                  <img src="photo5/th (6).jpeg" alt="Image 10">
+                </div>
+                <div class="image">
+                  <img src="photo5/th (7).jpeg" alt="Image 9">
+                </div>
+                <div class="image">
+                  <img src="photo5/th (8).jpeg" alt="Image 10">
+                </div>
+            </div>
 
-               </div>
-               <div class="card">
-                   <img src="dt2.jpg" alt="">
-                   <p>Dr Alexa</p>
-                   <p>Surgeon</p>
+        
+    <p>And any more details about that one,can you use ,<br>this link,
+    <a href="https://www.google.com/search?sca_esv=4773a9d9c9d3b242&sca_upv=1&udm=2&sxsrf=ACQVn0-XoyBXJzKmcIdVYSgGLI2uP_tDzw:1713040394361&q=hospital+photos&spell=1&sa=X&ved=2ahUKEwiP-cPhhMCFAxU0mVYBHeUtB8cQkeECKAB6BAgHEAI">Search on Google</a>
 
-               </div>
-               <div class="card">
-                   <img src="dt3.jpg" alt="">
-                   <p>Dr Alexa</p>
-                   <p>Surgeon</p>
+<div class="gallery"></div>
 
-               </div>
-           </div>
-       </div>
+   <!-- Slideshow container -->
+<div class="slideshow-container">
 
-       <div id="speciality">
-           <div class="head">
-               <h1>Our Speciality</h1>
-           </div>
-           <div class="surgery">
-               <div class="surgeryCard">
-                   <img src="s1.png" alt="">
-                   <p>Succesfully Knee Surgery</p>
-                   <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-               </div>
-               <div class="surgeryCard">
-                   <img src="s2.png" alt="">
-                   <p>Succesfully Knee Surgery</p>
-                   <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="./Images/download (4).jpeg" style="width:100%">
+    <div class="text">Caption Text</div>
+  </div>
 
-               </div>
-               <div class="surgeryCard">
-                   <img src="s3.png" alt="">
-                   <p>Succesfully Knee Surgery</p>
-                   <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="./Images/OIP (1).jpeg" style="width:100%">
+    <div class="text">Caption Two</div>
+  </div>
 
-               </div>
-           </div>
-       </div>
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="./Images/OIP (4).jpeg" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
 
-       <div id="patient">
-           <div class="head">
-               <h1>Our Patient's Review</h1>
-           </div>
-           <div class="patients">
-               <div class="patientCard">
-                   <img src="p1.png" alt="">
-                   <img src="p2.png" alt="">
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
 
-               </div>
-               <div class="patientCard">
-                   <img src="p3.jpg" alt="">
-                   <img src="p4.jpg" alt="">
-                    
-
-                     
-               </div>
-               <div class="patientCard">
-                   <img src="p5.jpg" alt="">  
-                   <img src="p6.jpg" alt="">                   
-                  
-               </div>
-           </div>
-       </div>
-
-       <div id="contact">
-           <div class="head">
-               <h1>Contact <span>Us</span></h1>
-           </div>
-           <div class="contact">
-               <h1>Connect With Us</h1>
-               <input type="text" placeholder="Enter Email" id="email">
-               <input type="password" placeholder="Enter Password" id="pass">
-               <button id="connectBtn">Connect</button>
-
-           </div>
-       </div>
-
-       <div class="footer">
-           <div class="text">
-               <h3>About Us</h3>
-               <p>24 Hour's</p>
-               <p>Top Doctors</p>
-               <p>Best Care</p>
-               <p>Patient</p>
-
-           </div>
-           <div class="text">
-               <h3>Speciality</h3>
-               <p>Spin Surgery</p>
-               <p>Knee Surgery</p>
-               <p>Leg Surgery</p>
-               <p>Tendon Surgery</p>
-
-           </div>
-           <div class="text">
-               <h3>Best Teams</h3>
-               <p>Doctor</p>
-               <p>Nursing</p>
-               <p>Staff</p>
-               <p>Hospital</p>
-
-           </div>
-           <div class="text">
-               <h3>Address</h3>
-               <p>Near MG Road</p>
-               <p>Galaxy Care</p>
-               <p>333-00222</p>
-               <p>2222-4334</p>
-
-           </div>
-       </div>
-
-       <div class="content">
-           <button id="close">
-               <i class="fa-solid fa-xmark"></i>
-           </button>
-           <div class="contentDetail">
-
-           </div>
-       </div>
-
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+      
+   <!--Footer-->
+       <style>
+           /* Basic CSS for contacts section */
+           .contacts {
+               background-color: #f4f4f4;
+               padding: 20px;
+           }
+           h2 {
+               color: #333;
+           }
+           p {
+               color: #666;
+               margin-bottom: 10px;
+           }
+       </style>
+   </head>
+   <body>
+   
+   <div class="contacts">
+       <h2>Contact Information</h2>
+       <p>Hospital Name: DH Hospital</p>
+       <p>Address: 123 Hospital Street, City,colombo 07,Country</p>
+       <p>Phone: +123 456 7890 or +011 2222245</p>
+       <p>Email: infoDHHospital@example.com</p>
    </div>
-   <script src="index.js"></script>
+
+    <!--login to web page-->
+    <div id="contact">
+        <div class="container">
+         <h2> DH Hospital System Login</h2>
+         <form action="your_backend_script.php" method="post">
+           <label for="username">Username:</label>
+           <input type="password" id="username" name="username" required>
+       
+           <label for="password">Password:</label>
+           <input type="password" id="password" name="password" required>
+       
+           <input type="submit" value="Login">
+          </form>
+       </div>
+       </div>
+
+
+   <h1>Make an Appointment</h1>
+    <form action="submit_appointment.php" method="post">
+        <label for="patient_name">Patient Name:</label><br>
+        <input type="text" id="patient_name" name="patient_name" required><br><br>
+        
+        <label for="contact_number">Contact Number:</label><br>
+        <input type="text" id="contact_number" name="contact_number" required><br><br>
+        
+        <label for="preferred_date">Preferred Date:</label><br>
+        <input type="date" id="preferred_date" name="preferred_date" required><br><br>
+        
+        <label for="preferred_time">Preferred Time:</label><br>
+        <input type="time" id="preferred_time" name="preferred_time" required><br><br>
+        
+        <input type="submit" value="Submit Appointment">
+    </form>
+
+  
+
+
+    <div class="footer">
+      <div class="text">
+          <h3>About Us</h3>
+          <p>24 Hour's</p>
+          <p>Top Doctors</p>
+          <p>Best Care</p>
+          <p>Patient</p>
+
+      </div>
+      <div class="text">
+          <h3>Speciality</h3>
+          <p>Spin Surgery</p>
+          <p>Knee Surgery</p>
+          <p>Leg Surgery</p>
+          <p>Tendon Surgery</p>
+
+      </div>
+      <div class="text">
+          <h3>Best Teams</h3>
+          <p>Doctor</p>
+          <p>Nursing</p>
+          <p>Staff</p>
+          <p>Hospital</p>
+
+      </div>
+      <div class="text">
+          <h3>Address</h3>
+          <p>Near MG Road</p>
+          <p>Galaxy Care</p>
+          <p>333-00222</p>
+          <p>2222-4334</p>
+
+      </div>
+  </div>
+
+  <div class="content">
+      <button id="close">
+          <i class="fa-solid fa-xmark"></i>
+      </button>
+      <div class="contentDetail">
+
+      </div>
+  </div>
+
+</div>
+<script src="index.js"></script>
+  </body>
+   </html>
+
+   
+   
 </body>
+
 </html>
